@@ -1,3 +1,4 @@
+import React from "react";
 import { CartIcon } from "../icons";
 import { useSelector } from "react-redux";
 
