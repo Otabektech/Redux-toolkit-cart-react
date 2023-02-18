@@ -1,6 +1,5 @@
 import CartItem from "./CartItem";
 import { useDispatch, useSelector } from "react-redux";
-
 import { openModal } from "../features/modal/modalSlice";
 
 const CartContainer = () => {
@@ -17,6 +16,7 @@ const CartContainer = () => {
       </section>
     );
   }
+
   return (
     <section className="cart">
       <header>
